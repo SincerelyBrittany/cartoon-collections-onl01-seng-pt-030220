@@ -29,6 +29,8 @@ def find_the_cheese(array)# code an argument here
     puts cheese_types[1]
   elsif array.include? cheese_types[2]
     puts cheese_types[2]
+    elsif array.include? cheese_types[3]
+    puts cheese_types[3]
   else
     nil
   end  
