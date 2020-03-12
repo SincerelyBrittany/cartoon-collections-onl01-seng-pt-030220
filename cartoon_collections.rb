@@ -25,14 +25,8 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_length = cheese_types.length
   cheese_total = cheese_types.each { |n| }
-  if array.include? cheese_types[0]
-    puts cheese_types[0]
-  elsif array.include? cheese_types[1]
-    puts cheese_types[1]
-  elsif array.include? cheese_types[2]
-    puts cheese_types[2]
-    elsif array.include? cheese_types[3]
-    puts cheese_types[3]
+  if array.include? cheese_total
+    puts cheese_types[n]
   else
     nil
   end  
