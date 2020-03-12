@@ -18,7 +18,7 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   array.each_with_index{ |item, index| items = item.length
-  puts item }
+  puts items }
 end
 
 def find_the_cheese# code an argument here
