@@ -17,8 +17,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  array.each_with_index{ |item, index| items = item.length
-   items.any? 4 }
+  array.any? { |word| word.length >= 3 } 
 end
 
 def find_the_cheese# code an argument here
