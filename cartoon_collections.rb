@@ -18,8 +18,8 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   array.each_with_index{ |item, index| 
-  index += 1 
-  puts "#{index} #{item}" }
+  items = item.length
+  puts "#{index} #{items}" }
   # array.any? [{|word| words = word.length puts words}] 
   
   
