@@ -23,7 +23,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese = cheese_types.each_with_index{ |item, index| 
+  cheese = cheese_types.each{ |item| 
   puts "#{item}" }
   array.include? cheese
 end
