@@ -26,7 +26,7 @@ def find_the_cheese(array)# code an argument here
   cheese_length = cheese_types.length
   cheese_total = cheese_types.each { |n| }
   if array.include? cheese_total
-    puts cheese_types[n]
+    puts cheese_total
   else
     nil
   end  
