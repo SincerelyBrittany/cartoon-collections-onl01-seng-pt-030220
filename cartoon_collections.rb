@@ -1,4 +1,4 @@
-array = ["Doc", "Dopey", "Bashful", "Grumpy"]
+array = ["Doc", "Dopey", "Bashful", "Grumpy", "cheddar"]
 
 def roll_call_dwarves(array)# code an argument here
   # Your code here
@@ -23,7 +23,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.collect
+  aeeary.include? "cheddar"
 end
 
 puts find_the_cheese(array)
