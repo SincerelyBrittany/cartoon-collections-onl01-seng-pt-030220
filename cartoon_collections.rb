@@ -25,7 +25,15 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese = cheese_types.each{ |item| 
   puts "#{item}"}
-  array.include? cheese
+  if array.include? cheese_types[0]
+    puts cheese_types[0]
+  elsif array.include? cheese_types[1]
+    puts cheese_types[1]
+  elsif array.include? cheese_types[2]
+    puts cheese_types[2]
+  else
+    nil
+  end  
 end
 
 puts find_the_cheese(array)
