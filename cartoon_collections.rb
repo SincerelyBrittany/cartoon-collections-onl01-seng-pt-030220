@@ -23,13 +23,10 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_length = cheese_types.length
-  cheese_total = cheese_types.each { |n| }
-  if array.include? cheese_total
-    puts cheese_total
-  else
-    nil
-  end  
+  potentially_cheesy_items.find do |maybe_cheese|
+    cheeses.include?(maybe_cheese)
+  end
 end
+
 
 puts find_the_cheese(array)
